@@ -28,7 +28,7 @@
 * Блок places выполнен также на гриде
 * Затемнение фона в блоке cover при наведении курсора
 
-[Сылка на сайт](https://bambambarabam.github.io/russian-travel/index.html)
+[Перейти на сайт](https://bambambarabam.github.io/russian-travel/index.html)
 
 ### Спасибо за внимание!
 -------------------------
