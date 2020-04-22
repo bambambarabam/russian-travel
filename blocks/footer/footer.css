@@ -1,0 +1,20 @@
+@import url('./__link/footer__link.css');
+@import url('./__copyright/footer__copyright.css');
+@import url('./__menu/footer__menu.css');
+@import url('./__row/footer__row.css');
+
+.footer {
+  max-width: calc(100% - 6rem);
+  margin: 0 auto;
+}
+
+@media all and (min-width: 701px)and (max-width: 1020px) {
+  .footer {
+    max-width: calc(100% - 3rem);
+  }
+}
+
+@media all and (max-width: 700px) {
+  .footer {
+    max-width: 100%;
+  }

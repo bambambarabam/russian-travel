@@ -1,0 +1,15 @@
+.lead__container {
+  padding-bottom: 5.625rem;
+}
+
+@media all and (max-width: 1020px) and (min-width: 701px) {
+  .lead__container {
+    padding-bottom: 5.5rem;
+  }
+}
+
+@media all and (max-width: 700px) {
+  .lead__container {
+    padding-bottom: 4rem;
+  }
+}

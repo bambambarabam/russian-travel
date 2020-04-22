@@ -1,0 +1,19 @@
+.header__columns {
+  max-width: calc(100% - 6rem);
+  max-height: 3.25rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+@media all and (min-width: 701px) and (max-width: 1020px) {
+  .header__columns {
+    max-width: calc(100% - 3rem);
+  }
+}
+
+@media all and (max-width: 700px) {
+  .header__columns {
+    max-width: calc(100% - 2rem);
+  }
+}

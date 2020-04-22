@@ -1,0 +1,31 @@
+.place__paragraph {
+  margin: 0 0 2rem 0;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.12rem;
+  line-height: 1.6;
+}
+
+.place__paragraph:nth-child(even) {
+  margin: 0;
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1044px) {
+  .place__paragraph {
+    font-size: 1.125rem;
+    line-height: 1.875rem;
+  }
+  .place__paragraph:last-child {
+    margin: 0;
+  }
+}
+
+@media all and (max-width: 1020px) {
+  .place__paragraph {
+    font-size: 1rem;
+    line-height: 26px;
+  }
+  .place__paragraph:last-child {
+    margin: 0;
+  }
+}

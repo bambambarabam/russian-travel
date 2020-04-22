@@ -1,0 +1,41 @@
+.footer__link {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  line-height: 1rem;
+}
+
+.footer__link:hover {
+  color: white;
+  opacity: 0.8;
+}
+
+.footer__link:active {
+  color: white;
+}
+
+.footer__link:visited {
+  text-decoration: none;
+  color: white;
+}
+
+@media all and (max-width: 700px) {
+  .footer__link {
+    min-width: 100%;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+    margin-top: 2rem;
+    display: block;
+  }
+  .footer__link:hover {
+    text-decoration: none;
+    opacity: 1;
+  }
+  .footer__link:active {
+    text-decoration: none;
+  }
+  .footer__link:visited {
+    text-decoration: none;
+  }
+}

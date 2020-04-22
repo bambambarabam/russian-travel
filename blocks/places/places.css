@@ -1,0 +1,24 @@
+.places {
+  max-width: calc(100% - 18.5rem);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1021px) and (max-width: 1044px) {
+  .places {
+    max-width: calc(100% - 6rem);
+  }
+}
+
+@media all and (min-width: 701px) and (max-width: 1020px) {
+  .places {
+    max-width: calc(100% - 3rem);
+  }
+}
+
+@media all and (max-width: 700px) {
+  .places {
+    max-width: 100%;
+  }
+}
