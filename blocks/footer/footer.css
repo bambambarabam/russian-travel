@@ -1,11 +1,13 @@
 @import url('./__link/footer__link.css');
 @import url('./__copyright/footer__copyright.css');
 @import url('./__menu/footer__menu.css');
-@import url('./__row/footer__row.css');
 
 .footer {
   max-width: calc(100% - 6rem);
   margin: 0 auto;
+  padding-bottom: 1.5rem;
+  display: flex;
+  justify-content: space-between;
 }
 
 @media all and (min-width: 701px)and (max-width: 1020px) {
@@ -16,5 +18,8 @@
 
 @media all and (max-width: 700px) {
   .footer {
-    max-width: 100%;
+    padding-left: 1rem;
+    flex-direction: column;
+    margin: 0;
   }
+}

@@ -31,7 +31,17 @@
   }
 }
 
-@media all and (max-width: 700px) {
+@media all and (max-width: 700px) and (min-width: 330px) {
+  .place {
+    grid-template-areas: "title" "image" "paragraphs";
+    grid-row-gap: 2rem;
+    grid-column-gap: 0;
+    margin-bottom: 3rem;
+    justify-items: center;
+  }
+}
+
+@media all and (max-width: 329px) {
   .place {
     grid-template-areas: "title" "image" "paragraphs";
     grid-row-gap: 2rem;

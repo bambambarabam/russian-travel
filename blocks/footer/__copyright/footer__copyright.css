@@ -3,6 +3,7 @@
   line-height: 1rem;
   text-align: right;
   margin: 0;
+  max-width: 100%;
 }
 
 @media all and (max-width: 700px) {

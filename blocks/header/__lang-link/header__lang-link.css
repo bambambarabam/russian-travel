@@ -19,6 +19,7 @@
   color: white;
   text-decoration: underline;
   text-underline-position: under;
+  opacity: 0.8;
 }
 
 .header__lang-link:visited {

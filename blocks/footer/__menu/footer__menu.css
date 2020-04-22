@@ -9,7 +9,7 @@
 
 @media all and (max-width: 700px) {
   .footer__menu {
-    flex-direction: column;
     min-width: 100%;
+    flex-direction: column;
   }
 }
