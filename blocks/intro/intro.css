@@ -1,7 +1,7 @@
 @import url('./__title/intro__title.css');
 @import url('./__text/intro__text.css');
 @import url('./__list/intro__list.css');
-@import url('./__list/_span/intro__list_span.css');
+@import url('./__span/intro__span.css');
 .intro {
   display: flex;
   flex-flow: column wrap;
