@@ -1,9 +1,0 @@
-.intro__container {
-min-width: 77%;
-}
-
-@media screen and (max-width: 1025px) {
-  .intro__container {
-    width: 100%;
-  }
-}
