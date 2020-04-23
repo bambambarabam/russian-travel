@@ -5,7 +5,7 @@
 .footer {
   max-width: calc(100% - 6rem);
   margin: 0 auto;
-  padding-bottom: 1.5rem;
+  padding: 5.75rem 0 1.5rem 0;
   display: flex;
   justify-content: space-between;
 }
@@ -18,7 +18,7 @@
 
 @media all and (max-width: 700px) {
   .footer {
-    padding-left: 1rem;
+    padding: 2rem 0 0 1rem;
     flex-direction: column;
     margin: 0;
   }

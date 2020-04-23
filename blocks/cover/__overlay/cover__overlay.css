@@ -1,16 +1,18 @@
 .cover__overlay {
-  background-color: rgba(0, 0, 0, .3);
   min-height: 740px;
+  background-color: rgba(0, 0, 0, .3);
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-flow: column wrap;
   cursor: pointer;
   text-decoration: none;
   color: white;
 }
 
 .cover__overlay:hover {
-  background-color: rgba(0, 0, 0, .8);
+  transition: background-color 1s linear .1s;
+  background-color: rgba(0, 0, 0, .8);;
 }
 
 @media screen and (min-width: 1021px) and (max-width: 1044px) {
